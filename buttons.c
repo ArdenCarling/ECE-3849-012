@@ -6,7 +6,7 @@
  *
  * ECE 3849 Lab button handling
  *
- *
+ * Arden Carling 4/20
 */
 #include <xdc/std.h>
 #include <xdc/runtime/System.h>
