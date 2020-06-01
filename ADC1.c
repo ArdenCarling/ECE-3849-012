@@ -2,7 +2,7 @@
  * ADC1.c
  *
  *  Created on: Apr 9, 2020
- *      Author: Ardoli
+ *      Author: Ardoli (My username should probably just be Arden Carling ¯\_(ツ)_/¯)
  */
 #include <stdint.h>
 #include <stdbool.h>
@@ -65,7 +65,7 @@ void ADC_ISR(void)
 int FallingTrigger(void) // search for falling edge trigger
 {
  // Step 1
- int x = gADCBufferIndex - 64/* half screen width; don�t use a magic number */;
+ int x = gADCBufferIndex - 64/* half screen width; don’t use a magic number */;
  // Step 2
  int x_stop = x - ADC_BUFFER_SIZE/2;
  for (; x > x_stop; x--) {
@@ -82,7 +82,7 @@ int FallingTrigger(void) // search for falling edge trigger
 int RisingTrigger(void) // search for rising edge trigger
 {
  // Step 1
- int x = gADCBufferIndex - 64/* half screen width; don�t use a magic number */;
+ int x = gADCBufferIndex - 64/* half screen width; don’t use a magic number */;
  // Step 2
  int x_stop = x - ADC_BUFFER_SIZE/2;
  for (; x > x_stop; x--) {
