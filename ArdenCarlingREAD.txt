@@ -26,12 +26,3 @@ change in x is always 1 and vertical lines draw faster than angled
 of missing deadlines
 >>Running on my board I achived 17fps (wooohoooo), so something is wrong, 
 if you get significatly less performance than that 
-
-Details about my personal life
->>I meant to do lab one long before this but I will be submitting it shortly 
-after you recieve this one. To be clear, it is done, but it needs some cleaning 
-up and a readme. I'm really sorry i'm handing it in so late, I know 
-that quarantine has been hard on all of us and my shortcomings aren't 
-doing you any favors. Now that I'm caught up however lab3 should be 
-much more pleasant on your end. Thank you for all you help and understanding.
-	-A  
