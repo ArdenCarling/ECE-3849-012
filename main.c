@@ -1,5 +1,5 @@
 /*
- * ECE 3849 Lab2 starter project
+ * ECE 3849 Lab2 project
  *
  * Gene Bogdanov    9/13/2017
  * Arden Carling    4/2020
