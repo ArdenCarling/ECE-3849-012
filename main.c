@@ -203,28 +203,28 @@ void datDisp(void) //All graphics calls go here
         GrRectFill(&sContext, &rectFullScreen); // fill screen with black
         GrContextForegroundSet(&sContext, ClrBlue);
         for(g=0; g<7; g++){//gridlines
-            GrLineDrawH(&sContext, 0, 128, Grid[g]);
+            GrLineDrawH(&sContext, 0, 128, Grid[g]);//gridlines
             GrLineDrawV(&sContext, Grid[g], 0, 128);
         }
         GrContextForegroundSet(&sContext, ClrRed);//center line red
         GrLineDrawV(&sContext, 64, 0, 128);
         if(trig){
-            GrLineDraw(&sContext, 100, 0, 105, 10);
+            GrLineDraw(&sContext, 100, 0, 105, 10);//trigger direction indicator
             GrLineDraw(&sContext, 105, 10, 110, 0);
         }
         else{
-            GrLineDraw(&sContext, 100, 10, 105, 0);
+            GrLineDraw(&sContext, 100, 10, 105, 0);//trigger direction indicator
             GrLineDraw(&sContext, 105, 0, 110, 10);
         }
         GrContextForegroundSet(&sContext, ClrWhite);
 
         if(!kissMode){
         for(r=0; r<128; r++){
-            GrLineDrawV(&sContext, r, DispBuff1[r], DispBuff2[r]);
+            GrLineDrawV(&sContext, r, DispBuff1[r], DispBuff2[r]);//draws the waveform
         }
-        snprintf(str, sizeof(str), gVoltageScaleStr[Vset]); // convert time to string
-        snprintf(str2, sizeof(str2), "Errors %u", gADCErrors); // convert time to string
-        snprintf(str3, sizeof(str3), "FPS %u", fps); //pcmr
+        snprintf(str, sizeof(str), gVoltageScaleStr[Vset]); //Vscale display
+        snprintf(str2, sizeof(str2), "Errors %u", gADCErrors); //number of missed deadlines
+        snprintf(str3, sizeof(str3), "FPS %u", fps); //pcmr lol
 
         GrStringDraw(&sContext, str, /*length*/ -1, /*x*/ 0, /*y*/ 0, /*opaque*/ false);
         GrStringDraw(&sContext, str2, /*length*/ -1, /*x*/ 0, /*y*/ 10, /*opaque*/ false);
