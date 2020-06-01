@@ -2,6 +2,7 @@
  * ECE 3849 Lab2 starter project
  *
  * Gene Bogdanov    9/13/2017
+ * Arden Carling    4/2020
  */
 /* XDCtools Header files */
 #include <xdc/std.h>
