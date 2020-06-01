@@ -1,5 +1,11 @@
 Welcome to the README
 
+For people who are just browsing
+>>This project is made for the Texas Instuments EK-TM4C1294XL and Educational Boosterpack MKII
+>>This is not the most recent version of the program. This iteration represents the first port 
+of basic functionality to ti-rtos.
+>>I will upload more recent versions of the project soon. 
+
 Operation
 >>After starting the program, voltage range can be adjusted up
 or down using S1 and S2 on the boosterpack
